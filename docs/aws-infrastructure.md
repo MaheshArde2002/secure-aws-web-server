@@ -35,7 +35,7 @@ One public subnet was created inside the VPC for the EC2 web server.
 
 ### Configuration
 
-- Subnet Name: `secure-web-public-subnet`
+- Subnet Name: public-subnet
 - VPC: `secure-web-vpc`
 - CIDR Block: `10.0.1.0/24`
 - Type: Public Subnet
@@ -64,7 +64,7 @@ One public route table was created for the public subnet.
 
 ### Configuration
 
-- Route Table Name: `secure-web-public-rt`
+- Route Table Name: public-route-table
 - VPC: `secure-web-vpc`
 
 ### Routes
